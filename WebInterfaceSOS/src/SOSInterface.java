@@ -9,8 +9,8 @@ import java.awt.event.*;
 
 public class SOSInterface extends Applet {
 	
-	String pathToSos = "/home/iliyan/52north/52n-sos/52n-sos-service/src/main/webapp/WEB-INF/conf/sos.config";
-	String pathToDssos = "/home/iliyan/52north/52n-sos/conf/dssos.config";
+	String pathToSos = "...../52north/52n-sos/52n-sos-service/src/main/webapp/WEB-INF/conf/sos.config";
+	String pathToDssos = "...../52north/52n-sos/conf/dssos.config";
 	Button launchSos = new Button("Dysplay the contents of sos.config");
 	Button launchDssos = new Button("Dysplay the contents of dssos.config");
 	TextArea conf;
